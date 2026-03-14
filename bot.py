@@ -133,7 +133,7 @@ async def dreamxbotz_start():
     dreamxbotz.loop.create_task(keep_alive())
     await idle()
     
-    if __name__ == '__main__':
+if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     while True:
         try:
