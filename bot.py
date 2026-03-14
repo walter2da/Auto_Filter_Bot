@@ -119,7 +119,7 @@ async def dreamxbotz_start():
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
     await dreamxbotz.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(temp.B_LINK, today, time))
-import os
+    import os
 
     PORT = int(os.environ.get("PORT", 8080))
 
