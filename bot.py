@@ -119,10 +119,21 @@ async def dreamxbotz_start():
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
     await dreamxbotz.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(temp.B_LINK, today, time))
+import os
+
+    PORT = int(os.environ.get("PORT", 8080))
+
     app = web.AppRunner(await web_server())
     await app.setup()
+
     bind_address = "0.0.0.0"
     await web.TCPSite(app, bind_address, PORT).start()
+
+    logging.info(f"Web server started on port {PORT}")    
+    # app = web.AppRunner(await web_server())
+    # await app.setup()
+    # bind_address = "0.0.0.0"
+    # await web.TCPSite(app, bind_address, PORT).start()
     dreamxbotz.loop.create_task(keep_alive())
     await idle()
     
