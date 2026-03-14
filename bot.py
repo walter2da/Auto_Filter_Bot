@@ -130,10 +130,6 @@ async def dreamxbotz_start():
     await web.TCPSite(app, bind_address, PORT).start()
 
     logging.info(f"Web server started on port {PORT}")    
-    # app = web.AppRunner(await web_server())
-    # await app.setup()
-    # bind_address = "0.0.0.0"
-    # await web.TCPSite(app, bind_address, PORT).start()
     dreamxbotz.loop.create_task(keep_alive())
     await idle()
     
