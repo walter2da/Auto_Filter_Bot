@@ -32,6 +32,7 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
+├⍟ Mʏ Bᴇsᴛғʀɪᴇɴᴅ : <a href=https://t.me/{}, {}</a>
 ├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/HodyCloud/'>ᴏᴡɴᴇʀ</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
@@ -225,7 +226,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/HodyCloud">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/HodyCloud">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/HodyCloud">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/HodyCloud">[ ʜᴏᴅʏ ᴄʟᴏᴜᴅ ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
