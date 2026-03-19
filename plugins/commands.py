@@ -30,7 +30,7 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     try:
-        stick_id = "CAACAgUAAxkBAAECxzdpu69AHx5HgYMF6BFeJNOkao9NrAACORwAAv_h2VVt4zyaeDdyYzoE"
+        stick_id = "CAACAgUAAxkBAAECx5xpu8WIO_UktMHXsGlYfDn4wPlZvAACNB8AAl4x4FWQ30a9p2GJ_zoE"
         try:
             sticker = await message.reply_sticker(sticker=stick_id)
         except Exception as e:
