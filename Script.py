@@ -201,7 +201,7 @@ Nᴀᴍᴇ - {}
 
 <blockquote>🎉 <b>ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇᴛʜᴏᴅ 👇</b></blockquote>
 
-➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='https://graph.org/file/5d052e95e84d5884ecef3-13a5aff067a1fecb89.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
+➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='https://jolly-sky-b8b7.rihanrazak765.workers.dev/'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
 ➤ 💸 ᴜᴘɪ ɪᴅ → <code>hodystoll@upi</code>
 
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>"""
@@ -252,8 +252,8 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ᴀᴜᴅɪᴏ : {languages}
 
 sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
-<b>ʀᴇǫ ʙʏ : {message.from_user.mention}</b>"""
-
+<b>ʀᴇǫ ʙʏ : {message.from_user.mention}</b>
+<b>⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/{}>{}</a> ⚡"""
     LOGO = r"""
     ██████╗░██████╗░███████╗░█████╗░███╗░░░███╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
     ██╔══██╗██╔══██╗██╔════╝██╔══██╗████╗░████║╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
