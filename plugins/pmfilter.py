@@ -193,19 +193,19 @@ async def next_page(bot, query):
                    )
 
     else:
-    btn = []
-    btn.insert(0,
-        [
-            InlineKeyboardButton(
-                f'Quality', callback_data=f"qualities#{key}"),
-            InlineKeyboardButton(
-                "Language", callback_data=f"languages#{key}"),
-            InlineKeyboardButton(
-                "Season", callback_data=f"seasons#{key}")
-        ]
-    )
+        btn = []
+        btn.insert(0,
+                    [
+                        InlineKeyboardButton(
+                                f'Quality', callback_data=f"qualities#{key}"),
+                        InlineKeyboardButton(
+                                "Language", callback_data=f"languages#{key}"),
+                        InlineKeyboardButton(
+                                "Season", callback_data=f"seasons#{key}")
+                    ]
+                    )
         btn.insert(0, [
-            InlineKeyboardButton(
+                        InlineKeyboardButton(
                            "🏅𝑳𝒂𝒕𝒆𝒔𝒕 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🏅", url=f"https://t.me/newcinemaupdates"),
         ])
     if ULTRA_FAST_MODE:
