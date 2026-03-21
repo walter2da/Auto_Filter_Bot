@@ -193,7 +193,7 @@ async def next_page(bot, query):
                    )
 
     else: you
-        btn = []
+            btn = []
         btn.insert(0,
                    [
                        InlineKeyboardButton(
