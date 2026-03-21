@@ -226,8 +226,9 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/HodyCloud">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/HodyCloud">[ ʜᴏᴅʏ ᴄʟᴏᴜᴅ ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/HodyCloud">{file_name}</a></b>
 
+<b>⚜️ Powered By : <a href="https://t.me/HodyCloud">[ ʜᴏᴅʏ ᴄʟᴏᴜᴅ ]</a></b>"""
     
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><code>{filename}</code></b>
